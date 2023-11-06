@@ -1,0 +1,265 @@
+@media (max-width: 1320px) {
+  h1 {
+    font-size: 6.4rem;
+  }
+
+  h2 {
+    font-size: 4.8rem;
+  }
+
+  .main__paragraph {
+    font-size: 1.8rem;
+  }
+
+  .about {
+    &__left {
+      gap: 1.8rem;
+    }
+  }
+
+  .img__shadow {
+    bottom: 4rem;
+  }
+
+  .contact {
+    &__content {
+      gap: 8rem;
+    }
+
+    &__specification,
+    &__info {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media (max-width: 1090px) {
+  h2 {
+    font-size: 4rem;
+  }
+
+  .main__paragraph {
+    font-size: 1.6rem;
+  }
+
+  .nav {
+    font-size: 1.8rem;
+    padding-block: 1.8rem;
+  }
+
+  .about {
+    &__container {
+      column-gap: 6rem;
+    }
+  }
+
+  .skills {
+    &__line {
+      gap: 2.5rem;
+      margin-top: -3.5rem;
+    }
+
+    &__icon {
+      height: 7rem;
+    }
+
+    &__name {
+      font-size: 1.6rem;
+    }
+  }
+
+  .contact {
+    &__header {
+      margin-bottom: 5rem;
+    }
+
+    &__info,
+    &__specification {
+      font-size: 1.8rem;
+    }
+
+    &__info {
+      &:not(:last-child) {
+        margin-bottom: 2rem;
+      }
+    }
+
+    &__img {
+      height: 3.5rem;
+    }
+  }
+}
+
+@media (max-width: 930px) {
+  h1 {
+    font-size: 4.8rem;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+  }
+
+  h5 {
+    font-size: 2rem;
+  }
+
+  .img__shadow {
+    bottom: -18.5rem;
+    width: 50%;
+  }
+
+  .main__paragraph {
+    font-size: 1.2rem;
+  }
+
+  .about {
+    &__container {
+      grid-template-columns: 1fr;
+      row-gap: 18rem;
+      column-gap: 0;
+      max-width: 70%;
+      padding-top: 3.2rem;
+      margin-bottom: 6rem;
+    }
+
+    &__left {
+      gap: 1.6rem;
+      text-align: center;
+      align-items: center;
+    }
+
+    &__img {
+      width: 50%;
+    }
+  }
+
+  .skills {
+    &__container {
+      padding-bottom: 7rem;
+
+      & > p {
+        span {
+          font-size: 2rem;
+          line-height: 0.7;
+        }
+      }
+    }
+
+    &__icon {
+      height: 7rem;
+    }
+
+    &__name {
+      font-size: 1.4rem;
+    }
+
+    &__header {
+      margin-bottom: 10rem;
+    }
+
+    &__line-1 {
+      margin-bottom: -5rem;
+    }
+  }
+
+  .contact {
+    &__info,
+    &__specification {
+      font-size: 1.6rem;
+    }
+
+    &__content {
+      gap: 3rem;
+    }
+
+    &__img {
+      height: 2.6rem;
+    }
+  }
+
+  .footer {
+    &__paragraph {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 4.2rem;
+  }
+
+  .nav {
+    font-size: 1.4rem;
+  }
+
+  .img__shadow {
+    bottom: -15.8rem;
+  }
+
+  .about {
+    &__container {
+      max-width: 85%;
+    }
+  }
+
+  .skills {
+    &__container {
+      max-width: 60%;
+    }
+
+    &__icon {
+      height: 5rem;
+    }
+
+    &__name {
+      font-size: 1.2rem;
+    }
+
+    &__line {
+      flex-wrap: wrap;
+
+      &-1 {
+        margin-bottom: 5rem;
+        margin-top: -6rem;
+      }
+    }
+  }
+
+  .contact {
+    &__content {
+      flex-direction: column;
+      align-items: center;
+
+      &-1 {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      &-2 {
+        flex-direction: row;
+      }
+    }
+
+    &__img {
+      height: 3.5rem;
+    }
+  }
+
+  .footer__paragraph {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 490px) {
+  .img__shadow {
+    width: 65%;
+    bottom: -16.5rem;
+  }
+
+  .about {
+    &__img {
+      width: 65%;
+    }
+  }
+}
