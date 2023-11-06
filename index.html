@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio &mdash; Renan Beraldi Castiglioni</title>
 
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <!-- remix icon -->
     <link
       rel="stylesheet"
@@ -31,16 +34,15 @@
       <header class="hero" id="home">
         <nav class="nav">
           <ul class="nav__links">
-            <li class="nav__links-item"><a href="#">Home</a></li>
-            <li class="nav__links-item"><a href="#">Sobre Mim</a></li>
-            <li class="nav__links-item"><a href="#">Habilidades</a></li>
-            <li class="nav__links-item"><a href="#">Portfolio</a></li>
-            <li class="nav__links-item"><a href="#">Contato</a></li>
+            <li class="nav__links-item"><a href="#home">Home</a></li>
+            <li class="nav__links-item"><a href="#about">Sobre Mim</a></li>
+            <li class="nav__links-item"><a href="#skills">Habilidades</a></li>
+            <li class="nav__links-item"><a href="#contact">Contato</a></li>
           </ul>
         </nav>
         <div class="hero__content">
-          <h1>☕️, Código e Caos:</h1>
-          <h1>Meu Portfólio</h1>
+          <h1 class="primary__heading">☕️, Código e Caos:</h1>
+          <h1 class="primary__heading">Meu Portfólio</h1>
         </div>
       </header>
 
@@ -86,7 +88,7 @@
               Conheça agora algumas das minhas habilidades
             </p>
           </header>
-          <div class="skills__line">
+          <div class="skills__line skills__line-1">
             <div class="skills__item">
               <img
                 src="assets/images/javascript-icon.svg"
@@ -130,7 +132,7 @@
           </div>
 
           <p class="main__paragraph">O que estou aprendendo?!</p>
-          <div class="skills__line">
+          <div class="skills__line skills__line-2">
             <div class="skills__item">
               <img src="assets/images/react-icon.svg" class="skills__icon" />
               <span class="skills__name">React JS</span>
