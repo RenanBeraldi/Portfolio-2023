@@ -59,3 +59,10 @@ ScrollReveal().reveal(".contact__content, .contact__header", {
   distance: "40px",
   reset: true,
 });
+
+ScrollReveal().reveal(".contact__content-2", {
+  delay: 900,
+  origin: "top",
+  distance: "40px",
+  reset: true,
+});
